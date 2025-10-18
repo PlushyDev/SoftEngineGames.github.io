@@ -6,125 +6,73 @@
   <title>Soft Engine Games</title>
   <style>
     body {
-      background-color: #111;
-      color: #fff;
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
       margin: 0;
       padding: 0;
+      background-color: #0e0e0e;
+      color: white;
+      font-family: Arial, sans-serif;
+      text-align: center;
     }
+
     header {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      padding: 20px 60px;
-      background-color: #000;
+      background: none; /* remove dark background */
+      padding: 30px 0 10px;
     }
+
     header img {
-      height: 60px;
-      border-radius: 12px;
+      width: 150px;
+      border-radius: 20px;
+      display: block;
+      margin: 0 auto;
     }
-    nav a {
-      color: #fff;
-      text-decoration: none;
-      margin: 0 15px;
-      font-weight: 500;
-      transition: color 0.2s;
+
+    main {
+      padding: 10px;
     }
-    nav a:hover {
-      color: #ff3c00;
-    }
-    .main-content {
-      max-width: 900px;
-      margin: 60px auto;
-      padding: 0 20px;
-      text-align: center;
-    }
+
     h1 {
-      font-size: 2.5rem;
-      font-weight: 800;
-      margin-bottom: 20px;
-    }
-    p {
-      font-size: 1rem;
-      line-height: 1.6;
-      color: #ccc;
-    }
-    .buttons {
-      margin-top: 25px;
-    }
-    .buttons button, .buttons a {
-      background-color: #fff;
-      color: #000;
-      padding: 12px 20px;
-      margin: 5px;
-      border: none;
-      border-radius: 8px;
-      font-weight: 600;
-      cursor: pointer;
-      text-decoration: none;
-      transition: background-color 0.3s, color 0.3s;
-    }
-    .buttons button:hover, .buttons a:hover {
-      background-color: #ff3c00;
-      color: #fff;
-    }
-    .section-title {
-      margin-top: 80px;
-      font-size: 1.8rem;
-      font-weight: bold;
-      color: #fff;
-    }
-    .section-text {
-      color: #ccc;
+      font-size: 36px;
       margin-top: 10px;
-      font-size: 1.1rem;
+      color: white;
     }
-    .footer {
-      text-align: center;
-      padding: 30px;
-      font-size: 0.9rem;
-      color: #888;
-      border-top: 1px solid #222;
-      margin-top: 80px;
+
+    .button-container {
+      margin-top: 20px;
+    }
+
+    .button {
+      display: inline-block;
+      background-color: #ff3b3b;
+      color: white;
+      padding: 12px 28px;
+      margin: 8px;
+      border-radius: 12px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: transform 0.2s, background-color 0.3s;
+    }
+
+    .button:hover {
+      background-color: #ff5c5c;
+      transform: scale(1.05);
     }
   </style>
 </head>
 <body>
-
   <header>
-    <div class="logo">
-      <img src="logo.png" alt="Soft Engine Games Logo">
-    </div>
-    <nav>
-      <a href="#">Home</a>
-      <a href="#">About</a>
-      <a href="#">Browse Games</a>
-      <a href="#">Privacy</a>
-    </nav>
+    <img src="logo.png" alt="Soft Engine Logo" />
   </header>
 
-  <div class="main-content">
-    <h1>ON METAQUEST VR</h1>
-    <p>
-      Soft Engine Games brings unique VR experiences to the MetaQuest Store. 
-      Dive into our action-packed worlds and join the fun today!
-    </p>
+  <main>
+    <h1>Welcome to Soft Engine Games</h1>
+    <p>Experience immersive VR games on Meta Quest.</p>
 
-    <div class="buttons">
-      <a href="#">Play Free on Meta</a>
-      <a href="#">Learn More</a>
-      <a href="#">Privacy Policy</a>
+    <div class="button-container">
+      <a href="#" class="button">Home</a>
+      <a href="#" class="button">Browse Games</a>
+      <a href="#" class="button">About</a>
+      <a href="#" class="button">Privacy</a>
     </div>
-
-    <div class="section-title">On MetaQuest Store</div>
-    <div class="section-text">
-      Updates, guns, monsters, and a hell ton of fun.
-    </div>
-  </div>
-
-  <div class="footer">
-    © 2025 SoftEngineGames
-  </div>
-
+  </main>
 </body>
 </html>
