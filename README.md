@@ -1,4 +1,4 @@
-[<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
@@ -20,7 +20,8 @@
       background-color: #000;
     }
     header img {
-      height: 50px;
+      height: 60px;
+      border-radius: 12px;
     }
     nav a {
       color: #fff;
@@ -67,14 +68,6 @@
       background-color: #ff3c00;
       color: #fff;
     }
-    .footer {
-      text-align: center;
-      padding: 30px;
-      font-size: 0.9rem;
-      color: #888;
-      border-top: 1px solid #222;
-      margin-top: 80px;
-    }
     .section-title {
       margin-top: 80px;
       font-size: 1.8rem;
@@ -85,6 +78,14 @@
       color: #ccc;
       margin-top: 10px;
       font-size: 1.1rem;
+    }
+    .footer {
+      text-align: center;
+      padding: 30px;
+      font-size: 0.9rem;
+      color: #888;
+      border-top: 1px solid #222;
+      margin-top: 80px;
     }
   </style>
 </head>
@@ -127,4 +128,3 @@
 
 </body>
 </html>
-](https://plushydev.github.io/SoftEngineGames.github.io/#)
